@@ -5,12 +5,12 @@ export default function Home () {
  
     return (
         <Card
-        header= "Welcome to Bad Bank"
+        header= "Bad Bank - Trust Us With Your Money"
         status=""
         body= { <>
            
     <div className="landing=page-img">
-      <img src={require('../images/Welcome Page.png')} className="d-block w-100" alt="landing page"/>
+      <img src={require('../images/bank home.jpg')} className="d-block w-100" alt="landing page"/>
    
 </div>
     
