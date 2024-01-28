@@ -8,7 +8,7 @@ const port = 80;
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static('../client/build'));
+app.use(express.static('../frontend/build'));
 
 //crearting a new account
 app.post('/create', async (req,res) => {
